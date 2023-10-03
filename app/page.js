@@ -5,7 +5,8 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <h1>Welcome to Climate Connect</h1>
-      <Link href="/users">Proposal</Link> 
+      <Link href="/proposals">Proposal</Link>
+      <Link href="/challenges">Challenge</Link>
     </main>
   )
 }
